@@ -11,3 +11,16 @@ D:\advanced software\Assingment\Assingment\obj\Debug\Assingment.pdb
 D:\advanced software\Assingment\Assingment\bin\Debug\FastColoredTextBox.dll
 D:\advanced software\Assingment\Assingment\bin\Debug\FastColoredTextBox.xml
 D:\advanced software\Assingment\Assingment\obj\Debug\Assingment.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\bin\Debug\Assingment.exe.config
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\bin\Debug\Assingment.exe
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\bin\Debug\Assingment.pdb
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\bin\Debug\FastColoredTextBox.dll
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\bin\Debug\FastColoredTextBox.xml
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\obj\Debug\Assingment.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\obj\Debug\Assingment.Form1.resources
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\obj\Debug\Assingment.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\obj\Debug\Assingment.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\obj\Debug\Assingment.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\obj\Debug\Assingment.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\obj\Debug\Assingment.exe
+C:\Users\Lenovo\Desktop\Graphical-Programming-\Assingment\obj\Debug\Assingment.pdb
