@@ -63,6 +63,7 @@
     <Compile Include="Rectangle.cs" />
     <Compile Include="Shape.cs" />
     <Compile Include="ShapeFactory.cs" />
+    <Compile Include="ShapeFactoryDef.cs" />
     <Compile Include="Triangle.cs" />
     <Compile Include="Variables.cs" />
     <EmbeddedResource Include="Form1.resx">
