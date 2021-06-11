@@ -31,7 +31,7 @@ namespace Assingment
         {
             this.outputbox = new System.Windows.Forms.PictureBox();
             this.cmdbox = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cmdtext = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -54,6 +54,7 @@ namespace Assingment
             this.outputbox.TabIndex = 1;
             this.outputbox.TabStop = false;
             this.outputbox.Click += new System.EventHandler(this.outputbox_Click);
+            this.outputbox.Paint += new System.Windows.Forms.PaintEventHandler(this.outputbox_Paint);
             // 
             // cmdbox
             // 
@@ -67,16 +68,16 @@ namespace Assingment
             this.cmdbox.Enter += new System.EventHandler(this.cmdbox_Enter);
             this.cmdbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cmdbox_KeyDown);
             // 
-            // textBox2
+            // cmdtext
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(388, 35);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(411, 308);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.cmdtext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmdtext.Location = new System.Drawing.Point(388, 35);
+            this.cmdtext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmdtext.Multiline = true;
+            this.cmdtext.Name = "cmdtext";
+            this.cmdtext.Size = new System.Drawing.Size(411, 308);
+            this.cmdtext.TabIndex = 8;
+            this.cmdtext.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button2
             // 
@@ -88,6 +89,7 @@ namespace Assingment
             this.button2.TabIndex = 11;
             this.button2.Text = "Run";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // openFileDialog1
             // 
@@ -120,21 +122,21 @@ namespace Assingment
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(153, 34);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click_1);
             // 
             // loadToolStripMenuItem
             // 
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(153, 34);
             this.loadToolStripMenuItem.Text = "Load";
             this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click_1);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(153, 34);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // aboutToolStripMenuItem
@@ -150,7 +152,7 @@ namespace Assingment
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(800, 449);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.cmdtext);
             this.Controls.Add(this.cmdbox);
             this.Controls.Add(this.outputbox);
             this.Controls.Add(this.menuStrip1);
@@ -169,7 +171,7 @@ namespace Assingment
         #endregion
         private System.Windows.Forms.PictureBox outputbox;
         private System.Windows.Forms.TextBox cmdbox;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox cmdtext;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
