@@ -468,6 +468,53 @@ namespace Assingment
             }
         }
 
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+            "-------------------HINTS------------------\n" +
+            "COMMANDS TO DISPLAY THE SHAPES \n" +
+            "-----------------------------\n" +
+            "Example :- \n" +
+            "paint rectangle 100 150\n" +
+            "paint circle 150 \n" +
+            "paint tringle \n" +
+            "-----------------------------------------\n" +
+            "TO CHANGE THE CO-ORDINATE OF THE SHAPES \n" +
+            "-----------------------------\n" +
+            "Example :- \n" +
+            "move 50 50\n" +
+            "---------------------------------------\n" +
+            "TO CHANGE THE COLOR OF SHAPES \n" +
+            "--------------------------------\n" +
+            "Example :- \n" +
+            "color red 10\n " +
+            "-----------------------------------------------\n" +
+            "TO FILL AND UNFILL COLOR \n" +
+            "--------------------------------\n" +
+            "Example :- \n" +
+            "fill on \n" +
+            "fill off \n" +
+            "-----------------------------------------------\n" +
+            "TO PAINT THE SAHPES USING VARIABLES \n" +
+            "------------------------------------------\n" +
+            "Example :- \n" +
+            "radius = 150\n" +
+            "paint circle radius\n" +
+            "-------------------------------------------------\n" +
+            "IF STATEMENT:\n" +
+            "--------------------------------\n" +
+            "Example :- \n" +
+            "a = 5 \n if a = 5 then \n paint circle 100 \n end if \n" +
+            "--------------------------------------------\n" +
+            "FOR LOOPING: \n" +
+            "--------------------------------\n" +
+            "Example :- \n" +
+            "r = 5 \n loop 3 \n r + 50 \n paint circle r \n endloop \n " +
+            "--------------------------------\n"
+            );
+
+        }
+
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
           
