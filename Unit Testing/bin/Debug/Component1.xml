@@ -1,0 +1,447 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Component1</name>
+    </assembly>
+    <members>
+        <member name="T:Component1.Circle">
+            <summary>
+            Circle class with inheriting shape 
+            </summary>
+        </member>
+        <member name="M:Component1.Circle.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Component1.Circle.#ctor(System.Drawing.Color,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Circle constructor with parameter
+            </summary>
+            <param name="c">takes c as a Color function parameter</param>
+            <param name="x">takes x as a parameter</param>
+            <param name="y">takes y as a parameter</param>
+            <param name="radius">takes y as radius of circle</param>
+        </member>
+        <member name="M:Component1.Circle.draw(System.Drawing.Graphics,System.Drawing.Color,System.Int32)">
+            <summary>
+            Draw method with parameter
+            </summary>
+            <param name="g">takes g as Graphic function</param>
+            <param name="c">takes c as Color function</param>
+            <param name="thickness">takes integer thickness for pen thickness</param>
+        </member>
+        <member name="M:Component1.Circle.fill(System.Drawing.Graphics,System.Drawing.Color)">
+            <summary>
+            Fill method inerited from shape class which use drawing library
+            </summary>
+            <param name="g">takes g as Graphic function as a parameter</param>
+            <param name="c">takes c as Color function as a parameter</param>
+        </member>
+        <member name="M:Component1.Circle.setRadius(System.Int32)">
+            <summary>
+            Set method for radius
+            </summary>
+            <param name="radius">rakes radius as radius of circle parameter</param>
+        </member>
+        <member name="M:Component1.Circle.getRadius">
+            <summary>
+            Get method for radius of circle
+            </summary>
+            <returns>return radius of circle</returns>
+        </member>
+        <member name="M:Component1.Circle.set(System.Drawing.Color,System.Int32[])">
+            <summary>
+            Set parameters of the shape
+            </summary>
+            <param name="color">take color as a Color function parameter</param>
+            <param name="list">Take integer list as a parameter</param>
+        </member>
+        <member name="T:Component1.FactoryInterface">
+            <summary>
+            interface declaration
+            </summary>
+        </member>
+        <member name="M:Component1.FactoryInterface.draw(System.Drawing.Graphics,System.Drawing.Color,System.Int32)">
+            <summary>
+            Draw shape abstract method with with parameter
+            </summary>
+            <param name="g">takes g as Graphic Function</param>
+            <param name="c">takes c as Color Function</param>
+            <param name="thickness">takes thickeness as pen thickness</param>
+        </member>
+        <member name="M:Component1.FactoryInterface.fill(System.Drawing.Graphics,System.Drawing.Color)">
+            <summary>
+            Fill abstract method with some drawing library
+            </summary>
+            <param name="g">takes g as Graphic Function</param>
+            <param name="c">takes c as Color Function</param>
+        </member>
+        <member name="T:Component1.Form1">
+            <summary>
+            Form1 class inheirit from Form class
+            </summary>
+        </member>
+        <member name="M:Component1.Form1.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Component1.Form1.saveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            method to save the written code in seleted directly
+            </summary>
+            <param name="sender">take sender as a parameter</param>
+            <param name="e">take e as a parameter</param>
+        </member>
+        <member name="M:Component1.Form1.openToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            method to open the written code in text bs
+            </summary>
+            <param name="sender">take sender as a parameter</param>
+            <param name="e">take e as a parameter</param>
+        </member>
+        <member name="M:Component1.Form1.command_txt_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Store the text from action text area
+            </summary>
+            <param name="sender">take sender as a parameter</param>
+            <param name="e">take e as a parameter</param>
+        </member>
+        <member name="M:Component1.Form1.action_btn_Click(System.Object,System.EventArgs)">
+            <summary>
+            function that hit when the action button clicked
+            </summary>
+            <param name="sender">take sender as a parameter</param>
+            <param name="e">take e as a parameter</param>
+        </member>
+        <member name="M:Component1.Form1.aboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            This function show the right command for user to execute
+            </summary>
+            <param name="sender">take sender as a parameter</param>
+            <param name="e">take e as a parameter</param>
+        </member>
+        <member name="M:Component1.Form1.panel_for_output_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            This function show the ouput in the panel
+            </summary>
+            <param name="sender">take sender as a parameter</param>
+            <param name="e">take e as a parameter</param>
+        </member>
+        <member name="F:Component1.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Component1.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Component1.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Component1.MoveDirection.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Component1.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Component1.Rectangle">
+            <summary>
+            Rectangle class inherit shape 
+            </summary>
+        </member>
+        <member name="M:Component1.Rectangle.#ctor">
+             <summary>
+            Default constructor
+             </summary>
+        </member>
+        <member name="M:Component1.Rectangle.#ctor(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="color">color takes as parameter for color of ractangle</param>
+            <param name="x">x takes as parameter</param>
+            <param name="y">y takes as a paarameter</param>
+            <param name="height">height takes a a hight of reactangle parameter</param>
+            <param name="width">width takes a a width of reactangle parameter</param>
+        </member>
+        <member name="M:Component1.Rectangle.draw(System.Drawing.Graphics,System.Drawing.Color,System.Int32)">
+            <summary>
+            Draw method with parameter
+            </summary>
+            <param name="g">takes g as Graphic function as a parameter</param>
+            <param name="c">takes c as Color function as a parameter</param>
+            <param name="thickness">takes integer thickness for pen thickness</param>
+        </member>
+        <member name="M:Component1.Rectangle.fill(System.Drawing.Graphics,System.Drawing.Color)">
+            <summary>
+            Fill method inerited from shape class which use drawing library
+            </summary>
+            <param name="g">takes g as Graphic function as a parameter</param>
+            <param name="c">takes c as Color function as a parameter</param>
+        </member>
+        <member name="M:Component1.Rectangle.setHeight(System.Int32)">
+            <summary>
+            Set method for height of rectangle
+            </summary>
+            <param name="height">takes height parameter as a height of rectangle</param>
+        </member>
+        <member name="M:Component1.Rectangle.setWidth(System.Int32)">
+            <summary>
+            Set method for height of rectangle
+            </summary>
+            <param name="width">takes width parameter as a width of rectangle</param>
+        </member>
+        <member name="M:Component1.Rectangle.getHeight">
+            <summary>
+            Getter method for height
+            </summary>
+            <returns>return height as a height of rectangle</returns>
+        </member>
+        <member name="M:Component1.Rectangle.getWidth">
+            <summary>
+            Getter method for  width
+            </summary>
+            <returns>return width as a width of rectangle</returns>
+        </member>
+        <member name="M:Component1.Rectangle.set(System.Drawing.Color,System.Int32[])">
+            <summary>
+            Set parameters of the shape
+            </summary>
+            <param name="color">take color as a Color function parameter</param>
+            <param name="list">Take integer list as a parameter</param>
+        </member>
+        <member name="T:Component1.Shape">
+            <summary>
+            This is the abstract class of shape, and this will be inherit by other shape class
+            </summary>
+        </member>
+        <member name="F:Component1.Shape.x">
+            <summary>
+            Variable declare with value assign
+            </summary>
+        </member>
+        <member name="F:Component1.Shape.y">
+            <summary>
+            Variable declare with value assign
+            </summary>
+        </member>
+        <member name="F:Component1.Shape.z">
+            <summary>
+            Variable declare with value assign
+            </summary>
+        </member>
+        <member name="F:Component1.Shape.color">
+            <summary>
+            Variable declare for color
+            </summary>
+        </member>
+        <member name="M:Component1.Shape.#ctor">
+            <summary>
+            Default constructor of shape abstract class
+            </summary>
+        </member>
+        <member name="M:Component1.Shape.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Declare constructor with parameter
+            </summary>
+            <param name="x">x takes as a parameter</param>
+            <param name="y">y takes as a parameter</param>
+        </member>
+        <member name="M:Component1.Shape.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This constructor take three parameter
+            </summary>
+            <param name="x">x takes as a parameter</param>
+            <param name="y">y takes as a parameter</param>
+            <param name="z">z takes as a parameter</param>
+        </member>
+        <member name="M:Component1.Shape.setX(System.Int32)">
+            <summary>
+            Declare set method for x
+            </summary>
+            <param name="x">x takes as a parameter</param>
+        </member>
+        <member name="M:Component1.Shape.setY(System.Int32)">
+            <summary>
+            Declare set method for y
+            </summary>
+            <param name="y">y takes as a parameter</param>
+        </member>
+        <member name="M:Component1.Shape.getX">
+            <summary>
+            Getter method for x
+            </summary>
+            <returns>return the value of x</returns>
+        </member>
+        <member name="M:Component1.Shape.getY">
+            <summary>
+            Getter method for  y
+            </summary>
+            <returns>return the value of y</returns>
+        </member>
+        <member name="M:Component1.Shape.set(System.Drawing.Color,System.Int32[])">
+            <summary>
+            method to set color and position of cursor
+            </summary>
+            <param name="color">take color as a Color function parameter</param>
+            <param name="list">Take integer list as a parameter</param>
+        </member>
+        <member name="M:Component1.Shape.draw(System.Drawing.Graphics,System.Drawing.Color,System.Int32)">
+            <summary>
+            Draw shape method with with parameter
+            </summary>
+            <param name="g">takes g as Graphic Function</param>
+            <param name="c">takes c as Color Function</param>
+            <param name="thickness">takes thickeness as pen thickness</param>
+        </member>
+        <member name="M:Component1.Shape.fill(System.Drawing.Graphics,System.Drawing.Color)">
+            <summary>
+            Fill method with some drawing library
+            </summary>
+            <param name="g">takes g as Graphic Function</param>
+            <param name="c">takes c as Color Function</param>
+        </member>
+        <member name="M:Component1.ShapeFactory.getShape(System.String)">
+            <summary>
+            Method to get a required shape
+            </summary>
+            <param name="shapeType">take shapeType as a parameter for shape</param>
+            <returns>if shpeType is null return null if shapeType exist then return shape object </returns>
+        </member>
+        <member name="T:Component1.ShapeFactoryDef">
+            <summary>
+            shapeFactory class this class is defined for unit tesing
+            </summary>
+        </member>
+        <member name="M:Component1.ShapeFactoryDef.isCircle(System.String)">
+            <summary>
+            method to check if shape is circle
+            </summary>
+            <param name="shape">Takes shape as string parameter</param>
+            <returns>if the contition is true then returns true else returns false</returns>
+        </member>
+        <member name="M:Component1.ShapeFactoryDef.isRectangle(System.String)">
+            <summary>
+            method to check if shape is rectangle
+            </summary>
+            <param name="shape">Takes shape as string parameter</param>
+            <returns>if the contition is true then returns true else returns false</returns>
+        </member>
+        <member name="M:Component1.ShapeFactoryDef.isTringle(System.String)">
+            <summary>
+            method to check if shape is tringle
+            </summary>
+            <param name="shape">Takes shape as string parameter</param>
+            <returns>if the contition is true then returns true else returns false</returns>
+        </member>
+        <member name="T:Component1.Tringle">
+            <summary>
+            Tringle class inherit Shape
+            </summary>
+        </member>
+        <member name="M:Component1.Tringle.#ctor">
+            <summary>
+            DEfautl cnstructor
+            </summary>
+        </member>
+        <member name="M:Component1.Tringle.#ctor(System.Drawing.PointF[])">
+            <summary>
+            Circle constructor with parameter
+            </summary>
+            <param name="point">takes point as a parameter</param>
+        </member>
+        <member name="M:Component1.Tringle.#ctor(System.Drawing.Color,System.Int32,System.Int32,System.Drawing.PointF[])">
+            <summary>
+            Constructor with parameter
+            </summary>
+            <param name="color">color as p=a parameter of color funtion</param>
+            <param name="x">takes x as a parameter</param>
+            <param name="y">y tkaes as a parameter</param>
+            <param name="point">point takes as paramter for point of trible</param>
+        </member>
+        <member name="M:Component1.Tringle.draw(System.Drawing.Graphics,System.Drawing.Color,System.Int32)">
+            <summary>
+            Draw method with parameter
+            </summary>
+            <param name="g">takes g as Graphic function as a parameter</param>
+            <param name="c">takes c as Color function as a parameter</param>
+            <param name="thickness">takes integer thickness for pen thickness</param>
+        </member>
+        <member name="M:Component1.Tringle.fill(System.Drawing.Graphics,System.Drawing.Color)">
+            <summary>
+            Fill method inerited from shape class which use drawing library
+            </summary>
+            <param name="g">takes g as Graphic function as a parameter</param>
+            <param name="c">takes c as Color function as a parameter</param>
+        </member>
+        <member name="M:Component1.Tringle.setPoints(System.Drawing.PointF[])">
+            <summary>
+            set method for point of tringle
+            </summary>
+            <param name="point">takes point paramter for a pont of tringle</param>
+        </member>
+        <member name="M:Component1.Tringle.getPoint">
+            <summary>
+            get point method
+            </summary>
+            <returns>return point of tringle</returns>
+        </member>
+        <member name="T:Component1.Variables">
+            <summary>
+             variable class
+            </summary>
+        </member>
+        <member name="M:Component1.Variables.setVariable(System.String)">
+            <summary>
+            setVariable method to set varible
+            </summary>
+            <param name="variable">return varible</param>
+        </member>
+        <member name="M:Component1.Variables.getVariable">
+            <summary>
+            This method get the variable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Component1.Variables.setValue(System.Single)">
+            <summary>
+            Set and get method of value
+            </summary>
+            <param name="value">return the value of set</param>
+        </member>
+        <member name="M:Component1.Variables.getValue">
+            <summary>
+            method to retunrn the value
+            </summary>
+            <returns>return value</returns>
+        </member>
+        <member name="T:Component1.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Component1.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Component1.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
