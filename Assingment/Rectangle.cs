@@ -19,8 +19,8 @@ namespace Assingment
         /// <param name="color"></param>
         /// <param name="x"></param>
         /// <param name="y"></param>
-        /// <param name="height"></param>
-        /// <param name="width"></param>
+        /// <param name="3"></param>
+        /// <param name="8"></param>
         public Rectangle(Color color, int x, int y, int height, int width) : base(x, y)
         {
             this.height = height;

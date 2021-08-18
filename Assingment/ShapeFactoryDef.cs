@@ -8,6 +8,11 @@ namespace Assingment
 {
     class ShapeFactoryDef
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="shape">circle</param>
+        /// <returns></returns>
         public bool isCircle(string shape)
         {
             if (shape == "circle")

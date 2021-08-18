@@ -15,6 +15,10 @@ namespace Assingment
         {
 
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="point">50</param>
         public Triangle(PointF[] point)
         {
             this.point = point;
