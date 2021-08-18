@@ -13,6 +13,14 @@ namespace Assingment
         public Rectangle()
         {
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="color"></param>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="height"></param>
+        /// <param name="width"></param>
         public Rectangle(Color color, int x, int y, int height, int width) : base(x, y)
         {
             this.height = height;

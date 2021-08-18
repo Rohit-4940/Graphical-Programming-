@@ -1,0 +1,13 @@
+D:\advanced software\unit testing\unit testing\bin\Debug\netcoreapp3.1\unit testing.exe
+D:\advanced software\unit testing\unit testing\bin\Debug\netcoreapp3.1\unit testing.deps.json
+D:\advanced software\unit testing\unit testing\bin\Debug\netcoreapp3.1\unit testing.runtimeconfig.json
+D:\advanced software\unit testing\unit testing\bin\Debug\netcoreapp3.1\unit testing.runtimeconfig.dev.json
+D:\advanced software\unit testing\unit testing\bin\Debug\netcoreapp3.1\unit testing.dll
+D:\advanced software\unit testing\unit testing\bin\Debug\netcoreapp3.1\unit testing.pdb
+D:\advanced software\unit testing\unit testing\obj\Debug\netcoreapp3.1\unit testing.csprojAssemblyReference.cache
+D:\advanced software\unit testing\unit testing\obj\Debug\netcoreapp3.1\unit testing.AssemblyInfoInputs.cache
+D:\advanced software\unit testing\unit testing\obj\Debug\netcoreapp3.1\unit testing.AssemblyInfo.cs
+D:\advanced software\unit testing\unit testing\obj\Debug\netcoreapp3.1\unit testing.csproj.CoreCompileInputs.cache
+D:\advanced software\unit testing\unit testing\obj\Debug\netcoreapp3.1\unit testing.dll
+D:\advanced software\unit testing\unit testing\obj\Debug\netcoreapp3.1\unit testing.pdb
+D:\advanced software\unit testing\unit testing\obj\Debug\netcoreapp3.1\unit testing.genruntimeconfig.cache
