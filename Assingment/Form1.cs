@@ -304,7 +304,7 @@ namespace Assingment
                                     }
 
                                     //Check if the word is tringle or not
-                                    if (words[1].Equals("tringle"))
+                                    if (words[1].Equals("triangle"))
                                     {
                                         if (words.Length != 2)
                                         {
