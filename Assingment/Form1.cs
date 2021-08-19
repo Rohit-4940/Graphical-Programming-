@@ -515,6 +515,11 @@ namespace Assingment
 
         }
 
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
           
